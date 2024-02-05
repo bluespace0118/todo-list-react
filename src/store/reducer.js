@@ -66,7 +66,7 @@ const reducer = (state = initialState, action) => {
 		case actionTypes.DELETE_TODO:{
 			const updateState = [...state.todo];
 			updateState.splice(action.id, 1);
-			console.log(action)
+			console.log(action.id)
 			return{
 				...state,
 				todo: updateState

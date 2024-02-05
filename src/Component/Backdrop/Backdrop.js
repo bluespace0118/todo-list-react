@@ -6,4 +6,6 @@ const backdrop = () => {
     return(
         <div className="Backdrop"></div>
     )
-}
+};
+
+export default backdrop;

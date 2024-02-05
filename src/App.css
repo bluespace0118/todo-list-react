@@ -10,6 +10,10 @@
   display: inherit;
 }
 
+.Inherite button{
+  margin-right: 5px;
+}
+
 .None{
   display: none;
 }
