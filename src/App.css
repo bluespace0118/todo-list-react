@@ -1,0 +1,15 @@
+.App{
+  padding: 2px;
+}
+.Flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Inherite{
+  display: inherit;
+}
+
+.None{
+  display: none;
+}

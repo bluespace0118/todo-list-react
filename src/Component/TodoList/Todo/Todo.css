@@ -1,0 +1,29 @@
+.todo{
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 40%;
+    box-sizing: border-box;
+}
+.todo label{
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.tasks div{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
+.tasks h4{
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    .todo {width: 80%}
+}
+.todoFtDiv{
+    background-color: aqua;
+}
